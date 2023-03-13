@@ -1,0 +1,10 @@
+const cowsay = require("cowsay");
+
+const information = require('./information.js');
+
+
+console.log(cowsay.say({
+  text : (`${information.name}, ${information.campus}`),
+    e : "oO" ,
+    T : "U "
+}));
